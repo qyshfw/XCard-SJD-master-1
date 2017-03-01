@@ -21,7 +21,6 @@ public class ToolBarHelper {
 
     // 上下文，创建view的时候需要用到
     private Context mContext;
-
     /*base view*/
     private FrameLayout mContentView;
 
@@ -100,7 +99,7 @@ public class ToolBarHelper {
 
         typedArray.recycle();
         /*如果是悬浮状态，则不需要设置间距*/
-        params.topMargin = overly ? 0 : ApplicationClass.navBarHeight+ApplicationClass.stateBarHeight;
+        params.topMargin =0;
 
         System.out.println("params.topMargin: "+params.topMargin);
 
