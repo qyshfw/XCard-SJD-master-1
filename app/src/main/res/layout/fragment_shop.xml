@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/APPPGBG"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/APPPGBG"
+        >
+
+        <com.bigkoo.convenientbanner.ConvenientBanner
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/convenientBanner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/gray"
+            app:canLoop="true"
+            />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:background="@color/HomeDarkBlue"
+            />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="horizontal"
+            android:background="@color/APPBlue"
+            >
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/APPBlue"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+
+                    <ImageView
+                        android:id="@+id/toBanKa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/index_top01"
+                        android:layout_weight="3"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="办卡"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/APPBlue"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+
+                    <ImageView
+                        android:id="@+id/toXiaoFei"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/index_top02"
+                        android:layout_weight="3"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="消费"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/APPBlue"
+
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+
+                    <ImageView
+                        android:id="@+id/toChongZhi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/index_top03"
+                        android:layout_weight="3"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="充值"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.x.custom.XGridView
+            android:id="@+id/homt_gview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"
+            android:columnWidth="80dp"
+            android:layout_marginTop="10dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:background="#eeeeee"
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            ></com.x.custom.XGridView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
